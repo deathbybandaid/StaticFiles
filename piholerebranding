@@ -1,2 +1,3 @@
-sudo nano +226 /var/www/html/admin/scripts/pi-hole/php/header.php
-sudo nano +14 /var/www/html/admin/scripts/pi-hole/php/loginpage.php
+sudo nano +226,35 /var/www/html/admin/scripts/pi-hole/php/header.php
+sudo nano +240,53 /var/www/html/admin/scripts/pi-hole/php/header.php
+sudo nano +14,93 /var/www/html/admin/scripts/pi-hole/php/loginpage.php
