@@ -1,0 +1,2 @@
+sudo nano +226 /var/www/html/admin/scripts/pi-hole/php/header.php
+
