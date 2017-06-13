@@ -1,5 +1,5 @@
 # StaticFiles
 
-fffasfdgsdf
-asdfhdsfgh
-sdfgh
+* fffasfdgsdf
+* asdfhdsfgh
+* sdfgh
