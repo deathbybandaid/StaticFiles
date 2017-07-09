@@ -1,0 +1,1711 @@
+#!/bin/bash
+## Used in the Parsing Process,,, a bit extreme, but makes the list accurate
+
+## Variables
+source /etc/piholeparser/scripts/scriptvars/staticvariables.var
+
+## Start the the most popilar
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+
+#########################################
+## If still contents in file, continue ##
+#########################################
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+HOWMANYLINES=$(echo -e "`wc -l $TEMPFILEA | cut -d " " -f 1`")
+if
+[[ $HOWMANYLINES -gt 0 ]]
+then
+:
+else
+STOPTLDSEARCH=true
+fi
+if
+[[ -z $FULLSKIPPARSING && -z $STOPTLDSEARCH ]]
+then
+rm $TEMPFILEA
+mv $TEMPFILEB $TEMPFILEA
+fi
+
+##  unset
+unset STOPTLDSEARCH
